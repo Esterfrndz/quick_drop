@@ -101,6 +101,23 @@ class CategoriesWidget extends StatelessWidget {
                   height: 50,
                 )),
           ),
+
+//ITEM 7
+Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  border: Border.all(width: 5, color: Colors.white),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Image.asset(
+                  "assets/fries.png",
+                  width: 50,
+                  height: 50,
+                )),
+          ),
+          
         ]),
       ),
     );
