@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Mi Aplicación Flutter',
+      title: 'QuickDrop',
       theme: ThemeData(
         // Tema de la aplicación
           scaffoldBackgroundColor: Colors.black26),
